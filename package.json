@@ -1,0 +1,19 @@
+{
+  "name": "api_rbac_praktek",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/uuid": "^11.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.0.0",
+    "hono": "^4.12.15",
+    "jose": "^6.2.3",
+    "uuid": "^14.0.0"
+  }
+}
