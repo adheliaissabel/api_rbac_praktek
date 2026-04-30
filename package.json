@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "@hono/node-server": "^2.0.0",
+    "@prisma/client": "6",
     "hono": "^4.12.15",
     "jose": "^6.2.3",
+    "prisma": "6",
     "uuid": "^14.0.0"
   }
 }
